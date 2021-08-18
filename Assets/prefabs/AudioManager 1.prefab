@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7076748675123783619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3891007678318138202}
+  - component: {fileID: 4065693562007727109}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: MUSIC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3891007678318138202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076748675123783619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4065693562007727109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076748675123783619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2076575b474944db6a1b2bab1186d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: player_collision
+    clip: {fileID: 8300000, guid: 1d8567598854aec43bc50a9921cf58e1, type: 3}
+    volume: 2
+    pitch: 3
+    source: {fileID: 0}
+    loop: 0
+  - name: fall_down
+    clip: {fileID: 8300000, guid: d0473d95607eca6418fa73b90f345cd3, type: 3}
+    volume: 1
+    pitch: 3
+    source: {fileID: 0}
+    loop: 0
+  - name: success
+    clip: {fileID: 8300000, guid: d0473d95607eca6418fa73b90f345cd3, type: 3}
+    volume: 1
+    pitch: 2
+    source: {fileID: 0}
+    loop: 0
+  - name: middle_music
+    clip: {fileID: 8300000, guid: 589192f34734ab540b1843cffe8f07cc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: get_moon
+    clip: {fileID: 8300000, guid: 6f1a63708757c38448cdb905f1526a02, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: try_again
+    clip: {fileID: 8300000, guid: 65dc0c641ead3194dab18bcbd2f7afbe, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: theme
+    clip: {fileID: 8300000, guid: 2f3526ddd64b82f4eb19cf1a4fb244fc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
